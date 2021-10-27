@@ -1,0 +1,29 @@
+{
+  "name": "newsletter-api",
+  "version": "1.0.0",
+  "description": "![](https://i.imgur.com/xG74tOh.png)",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "knex": "^0.95.11",
+    "nodemon": "^2.0.14",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nay-ane/back-integral-envio-emails.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nay-ane/back-integral-envio-emails/issues"
+  },
+  "homepage": "https://github.com/Nay-ane/back-integral-envio-emails#readme",
+  "keywords": []
+}
