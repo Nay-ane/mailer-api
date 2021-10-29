@@ -1,6 +1,6 @@
 const express = require('express')
 const subscribe = require('./controladores/subscribes')
-const sendEmail =  require('./controladores/sendEmail')
+const sendEmail = require('./controladores/sendEmail')
 
 const routers = express()
 
